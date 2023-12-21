@@ -1,0 +1,48 @@
+ul, ol {list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;}
+
+    h1, h2, h3, h4, h5, h6, p {
+        margin-top: 0;
+        margin-bottom: 0;}
+
+
+.review-div-container{
+display: flex;
+width: 335px;
+height: 282px;
+padding: 32px 8px;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+border-radius: 24px;
+margin: 32px 8px;
+}
+
+.review-title-caption{
+width: 335px;
+padding-bottom: 25px;
+color: #090101;
+text-align: center;
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.0;
+letter-spacing: -0.02em;
+}
+
+.review-title-subtitle{
+width: 335px;
+padding-bottom: 40px;
+color: #0b0808;
+text-align: center;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.16; /* 116.667% */
+letter-spacing: -0.02em;
+}
