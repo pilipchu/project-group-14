@@ -1,3 +1,17 @@
+/*================== MOBILE GENERAL STYLES =============== */
+.container {
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
+.advantages {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/*================== /MOBILE GENERAL STYLES =============== */
+
+/*================== MOBILE ADVANTAGES STYLES ============= */
 .advantages-list-container {
   max-width: 335px;
   border-radius: 24px;
@@ -24,7 +38,7 @@
   content: ' ';
   background: rgba(251, 251, 251, 0.1);
   border-radius: 18px;
-  width: 295px;
+  /* width: 295px; */
   height: 2px;
   display: block;
   left: 0px;
@@ -46,3 +60,97 @@
 .advantages-img {
   border-radius: 24px;
 }
+/*============== /MOBILE ADVANTAGES STYLES ================ */
+
+/*================== TABLET GENERAL STYLES =============== */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0px 32px;
+  }
+
+  .advantages {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
+/*================== /TABLET GENERAL STYLES =============== */
+
+/*============== TABLET ADVANTAGES STYLES ================= */
+@media screen and (min-width: 768px) {
+  .advantages-list-container {
+    max-width: 704px;
+    padding: 90px 32px;
+  }
+
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    row-gap: 44px;
+  }
+
+  .advantages-item {
+    flex-basis: calc((100% - 32px) / 2);
+  }
+
+  .advantages-item-litle {
+    font-size: 32px;
+  }
+
+  /* .advantages-item-litle::after {
+    width: 304px;
+  } */
+
+  .advantages-text {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+
+  .advantages-list-container {
+    margin-bottom: 32px;
+  }
+}
+/*============== /TABLET ADVANTAGES STYLES ================= */
+
+/*============== DESKTOP GENERAL STYLES ================= */
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0px 50px;
+  }
+}
+/*============== /DESKTOP GENERAL STYLES ================= */
+
+/*============== DESKTOP ADVANTAGES STYLES ================= */
+@media screen and (min-width: 1280px) {
+  .advantages-list-container {
+    max-width: 716px;
+    padding: 90px 50px;
+  }
+
+  .advantages-list-container {
+    margin-bottom: 0px;
+  }
+
+  .advantages-container {
+    display: flex;
+    gap: 32px;
+  }
+}
+/*============== /DESKTOP ADVANTAGES STYLES ================= */
+
+/*============== 1440 DESKTOP GENERAL STYLES ================= */
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
+/*============== /1440 DESKTOP GENERAL STYLES ================= */
+
+/*============== 1440 DESKTOP ADVANTAGES STYLES =============== */
+@media screen and (min-width: 1440px) {
+  .advantages-list-container {
+    max-width: 768px;
+  }
+} /*============== /1440 DESKTOP ADVANTAGES STYLES =============== */
