@@ -31,14 +31,13 @@
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.05em;
-  display: inline-block;
+  display: block;
 }
 
 .advantages-item-litle::after {
   content: ' ';
   background: rgba(251, 251, 251, 0.1);
   border-radius: 18px;
-  /* width: 295px; */
   height: 2px;
   display: block;
   left: 0px;
@@ -97,10 +96,6 @@
   .advantages-item-litle {
     font-size: 32px;
   }
-
-  /* .advantages-item-litle::after {
-    width: 304px;
-  } */
 
   .advantages-text {
     font-size: 13px;
