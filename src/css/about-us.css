@@ -1,0 +1,67 @@
+/* ============== MOBILE ABOUT US STYLES =================== */
+.container {
+  max-width: 375px;
+  padding: 40px 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 375px) {
+  .about-us-container {
+    border-radius: 24px;
+    background: #fbfbfb;
+  }
+
+  .about-us-description {
+    display: flex;
+    flex-direction: column;
+  }
+  .all-title-second {
+    color: #1b414b;
+    font-family: Inter;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    gap: 40px;
+  }
+
+  .about-us-benefits {
+    color: #1b414b;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  .about-us-option {
+    color: #040306;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    opacity: 0.4;
+  }
+}
+/* ============== /MOBILE ABOUT US STYLES =================== */
+
+/* ============== TABLET ABOUT US STYLES =================== */
+
+@media screen and (min-width: 768px) {
+}
+/* ============== /TABLET ABOUT US STYLES =================== */
+
+/* ============== DESKTOP (1280) ABOUT US STYLES =================== */
+
+@media screen and (min-width: 1280px) {
+}
+/* ============== /DESKTOP (1280) ABOUT US STYLES =================== */
+
+/* ============== DESKTOP (1440) ABOUT US STYLES =================== */
+@media screen and (min-width: 1440px) {
+}
+/* ============== /DESKTOP (1440) ABOUT US STYLES =================== */
