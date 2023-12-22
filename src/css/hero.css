@@ -6,6 +6,10 @@ body {
     color: #fbfbfb;
 }
 
+button {
+    cursor: pointer;
+}
+
 
 .container {
     max-width: 375px;
@@ -58,6 +62,14 @@ body {
     letter-spacing: -0.28px;
     border-color: transparent;
     margin: 0 auto;
+    transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.hero-sec-button:hover,
+.hero-sec-button:focus {
+    background-color: #FBFBFB;
+    color: #1B414B;
 }
 
 /* HERO SECTION TABLET VERSION */
@@ -89,6 +101,8 @@ body {
         font-size: 16px;
         line-height: 140%;
         max-width: 597px;
+        margin-left: auto;
+        margin-right: auto;
         margin-bottom: 48px;
     }
 
@@ -126,6 +140,8 @@ body {
             line-height: 80px;
             letter-spacing: -1.6px;
             max-width: 1001px;
+            margin-right: auto;
+            margin-left: auto;
     }
 
 
