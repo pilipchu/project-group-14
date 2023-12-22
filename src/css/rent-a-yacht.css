@@ -5,15 +5,14 @@
 }
 
 .rent-a-yacht-form {
-    display: flex;
-    align-items: start;
-    flex-direction: column;
-    max-width: 335px;
+    max-width: 100%;
 }
 
 .rent-a-yacht-title {
     padding-bottom: 40px;
-}
+    font-weight: 500;
+    }
+
 .rent-a-yacht-form-input {
     margin-bottom: 18px;
     width: 100%;
@@ -99,11 +98,12 @@
     .rent-a-yacht-form-container {
         margin-left: auto;
         margin-right: auto;
-    }
-
-    .rent-a-yacht-form {
         max-width: 472px;
     }
+
+    /* .rent-a-yacht-form {
+        max-width: 472px;
+    } */
 
     .rent-a-yacht-title {
         padding-bottom: 50px;
