@@ -1,1 +1,91 @@
 
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #0e1823;
+    color: #fbfbfb;
+}
+
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.hero-sec-div {
+    padding-top: 198px;
+    padding-bottom: 243px;
+}
+
+.hero-sec-title {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    max-width: 335px;
+}
+
+.hero-sec-text {
+    max-width: 335px;
+    color: rgba(251, 251, 251, 0.70);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 0.85;
+}
+
+.hero-sec-button {
+    display: flex;
+    padding: 14px 32px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 50px;
+    }
+}
