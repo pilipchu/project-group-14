@@ -36,6 +36,10 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
+
   .container {
     max-width: 704px;
   }
