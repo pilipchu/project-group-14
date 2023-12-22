@@ -1,67 +1,133 @@
-/* ============== MOBILE ABOUT US STYLES =================== */
 .container {
   max-width: 375px;
   padding: 40px 20px;
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (max-width: 375px) {
+
+/* ============== MOBILE ABOUT US STYLES =================== */
+
+.about-us-container {
+  border-radius: 24px;
+  background: #fbfbfb;
+}
+
+.about-us-description {
+  display: flex;
+  flex-direction: column;
+}
+.all-title-second {
+  color: #1b414b;
+  margin-bottom: 40px;
+  font-size: 28px;
+
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.about-us-benefits {
+  color: #1b414b;
+  margin-bottom: 20px;
+  font-size: 18px;
+
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.about-us-option {
+  color: #040306;
+
+  font-size: 12px;
+
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  opacity: 0.4;
+}
+
+.about-us-image {
+  max-width: 100%;
+  border-radius: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============== /MOBILE ABOUT US STYLES =================== */
+
+/* ============== TABLET ABOUT US STYLES =================== */
+
+@media screen and (min-width: 768px) {
   .about-us-container {
+    max-width: 768px;
     border-radius: 24px;
     background: #fbfbfb;
   }
 
   .about-us-description {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    float: left;
   }
   .all-title-second {
+    width: 536px;
     color: #1b414b;
-    font-family: Inter;
-    font-size: 28px;
-    font-style: normal;
+    padding-top: 50px;
+    font-size: 48px;
+    margin-bottom: 50px;
     font-weight: 500;
     line-height: 1;
     letter-spacing: -0.02em;
-    gap: 40px;
   }
 
   .about-us-benefits {
+    width: 389px;
     color: #1b414b;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
+    margin-bottom: 20px;
+    font-size: 23px;
+
     font-weight: 400;
     line-height: 1;
     letter-spacing: -0.02em;
   }
 
   .about-us-option {
+    width: 385px;
+
     color: #040306;
     font-family: Inter;
-    font-size: 12px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.17;
+    line-height: 1.15;
     letter-spacing: -0.02em;
     opacity: 0.4;
   }
-}
-/* ============== /MOBILE ABOUT US STYLES =================== */
 
-/* ============== TABLET ABOUT US STYLES =================== */
-
-@media screen and (min-width: 768px) {
+  .about-us-image {
+    max-width: 100%;
+    border-radius: 24px;
+  }
 }
 /* ============== /TABLET ABOUT US STYLES =================== */
 
 /* ============== DESKTOP (1280) ABOUT US STYLES =================== */
 
 @media screen and (min-width: 1280px) {
+  .about-us-container {
+    max-width: 1280px;
+    border-radius: 24px;
+    background: #fbfbfb;
+  }
 }
 /* ============== /DESKTOP (1280) ABOUT US STYLES =================== */
 
 /* ============== DESKTOP (1440) ABOUT US STYLES =================== */
 @media screen and (min-width: 1440px) {
+  .about-us-container {
+    max-width: 1440px;
+    border-radius: 24px;
+    background: #fbfbfb;
+  }
 }
 /* ============== /DESKTOP (1440) ABOUT US STYLES =================== */
