@@ -68,8 +68,8 @@ button {
 }
 
 
-.hero-sec-button:hover,
-.hero-sec-button:focus {
+.hero-sec-link:hover,
+.hero-sec-link:focus {
     background-color: #FBFBFB;
     color: #1B414B;
 }
