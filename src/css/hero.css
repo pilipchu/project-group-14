@@ -14,6 +14,8 @@ body {
 }
 
 
+/* HERO SECTION MOBILE VERSION */
+
 .hero-sec-div {
     padding-top: 198px;
     padding-bottom: 243px;
@@ -56,35 +58,66 @@ body {
     margin: 0 auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* HERO SECTION TABLET VERSION */
 
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
         padding: 0 32px;
     }
+
+    .hero-sec-div {
+     /* display: flex;
+     flex-direction: column;
+     align-items: center; */
+     padding-top: 200px;
+     padding-bottom: 215px;
+    }
+
+
+    .hero-sec-title {
+        font-size: 70px;
+        line-height: 70px;
+        letter-spacing: -1.4px;
+        max-width: 704px;
+    }
+
+
+    .hero-sec-text {
+                font-size: 16px;
+                line-height: 140%;
+                max-width: 597px;
+            margin-bottom: 48px;
+        
+    }
+
+
+
+    .hero-sec-button {
+        padding: 16px 40px;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        line-height: 110%;
+        letter-spacing: -0.36px;
+    }
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 1280px) {
