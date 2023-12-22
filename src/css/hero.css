@@ -27,6 +27,7 @@ body {
     line-height: 1;
     letter-spacing: -0.02em;
     max-width: 335px;
+    margin-bottom: 24px;
 }
 
 .hero-sec-text {
@@ -35,14 +36,24 @@ body {
     text-align: center;
     font-size: 12px;
     font-weight: 300;
-    line-height: 0.85;
+    line-height: 14px;
+    margin-bottom: 38px;
 }
 
 .hero-sec-button {
-    display: flex;
+    display: block;
     padding: 14px 32px;
-    align-items: flex-start;
-    gap: 10px;
+    border-radius: 15px;
+    background: #1B414B;
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    border-color: transparent;
+    margin: 0 auto;
 }
 
 
