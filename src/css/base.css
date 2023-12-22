@@ -25,9 +25,8 @@ body {
 }
 
 .container {
-  max-width: 375px;
+  max-width: 335px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .all-title-second {
@@ -38,8 +37,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
-    padding: 0 32px;
+    max-width: 704px;
   }
 
   .all-title-second {
@@ -49,7 +47,12 @@ body {
 
 @media screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
-    padding: 0 50px;
+    max-width: 1180px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1340px;
   }
 }
