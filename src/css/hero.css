@@ -112,7 +112,6 @@ button {
         padding: 16px 40px;
         font-family: Inter;
         font-size: 18px;
-        font-style: normal;
         line-height: 110%;
         letter-spacing: -0.36px;
     }
@@ -143,20 +142,20 @@ button {
             margin-right: auto;
             margin-left: auto;
     }
-
-
-
 }
 
-
-
-
-
-
+/* HERO SECTION DESKTOP VERSION 1440PX */
 
 @media screen and (min-width: 1440px) {
     .container {
         max-width: 1440px;
         padding: 0 50px;
     }
+
+
+    .hero-sec-div {
+        padding-top: 155px;
+        padding-bottom: 180px;
+    }
+
 }
