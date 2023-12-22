@@ -7,7 +7,7 @@
 
 /* ============== MOBILE ABOUT US STYLES =================== */
 
-.about-us-container {
+.about-us {
   border-radius: 24px;
   background: #fbfbfb;
 }
@@ -15,6 +15,7 @@
 .about-us-description {
   display: flex;
   flex-direction: column;
+  padding: 40px 20px;
 }
 .all-title-second {
   color: #1b414b;
@@ -59,16 +60,16 @@
 /* ============== TABLET ABOUT US STYLES =================== */
 
 @media screen and (min-width: 768px) {
-  .about-us-container {
+  .about-us {
     max-width: 768px;
     border-radius: 24px;
     background: #fbfbfb;
   }
 
   .about-us-description {
-    display: block;
-    float: left;
+    padding-left: 32px;
   }
+
   .all-title-second {
     width: 536px;
     color: #1b414b;
@@ -93,12 +94,11 @@
 
   .about-us-option {
     width: 385px;
-
+    padding-bottom: 50px;
     color: #040306;
-    font-family: Inter;
+
     font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
+
     line-height: 1.15;
     letter-spacing: -0.02em;
     opacity: 0.4;
@@ -114,10 +114,39 @@
 /* ============== DESKTOP (1280) ABOUT US STYLES =================== */
 
 @media screen and (min-width: 1280px) {
-  .about-us-container {
-    max-width: 1280px;
-    border-radius: 24px;
-    background: #fbfbfb;
+  .about-us {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
+  .about-us-description {
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 0 50px;
+  }
+
+  .title-about-us {
+    margin-top: 50px;
+  }
+
+  .all-title-second {
+    width: 537px;
+  }
+
+  .about-us-info {
+    margin-bottom: 100px;
+  }
+
+  .about-us-benefits {
+    margin-bottom: 20px;
+    width: 354px;
+  }
+
+  .about-us-option {
+    width: 354px;
   }
 }
 /* ============== /DESKTOP (1280) ABOUT US STYLES =================== */
