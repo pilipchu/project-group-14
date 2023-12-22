@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./variable.css');
 @import url('./base.css');
 @import url('./header.css');
 @import url('./hero.css');
@@ -14,3 +15,4 @@
 @import url('./rent-a-yacht.css');
 @import url('./reviews.css');
 @import url('./footer.css');
+@import url('./mobil-menu.css');
