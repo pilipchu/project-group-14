@@ -11,6 +11,8 @@ body {
     max-width: 375px;
     margin: 0 auto;
     padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -84,11 +86,10 @@ body {
 
 
     .hero-sec-text {
-                font-size: 16px;
-                line-height: 140%;
-                max-width: 597px;
-            margin-bottom: 48px;
-        
+        font-size: 16px;
+        line-height: 140%;
+        max-width: 597px;
+        margin-bottom: 48px;
     }
 
 
@@ -105,27 +106,37 @@ body {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* HERO SECTION DESKTOP VERSION 1280PX */
 
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1280px;
         padding: 0 50px;
     }
+
+
+    .hero-sec-div {
+        padding-top: 155px;
+        padding-bottom: 180px;
+    }
+
+
+    .hero-sec-title {
+            font-size: 80px;
+            line-height: 80px;
+            letter-spacing: -1.6px;
+            max-width: 1001px;
+    }
+
+
+
 }
+
+
+
+
+
+
 
 @media screen and (min-width: 1440px) {
     .container {
