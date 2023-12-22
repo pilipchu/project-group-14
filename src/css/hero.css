@@ -48,9 +48,11 @@ button {
     margin-bottom: 38px;
 }
 
-.hero-sec-button {
+.hero-sec-link {
     display: block;
-    padding: 14px 32px;
+    padding: 14px;
+    width: 141px;
+    text-align: center;
     border-radius: 15px;
     background: #1B414B;
     color: #FBFBFB;
@@ -105,8 +107,9 @@ button {
 
 
 
-    .hero-sec-button {
-        padding: 16px 40px;
+    .hero-sec-link {
+        padding: 16px;
+        width: 179px;
         font-family: Inter;
         font-size: 18px;
         line-height: 110%;
