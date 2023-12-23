@@ -40,6 +40,7 @@
 .mobile-menu-head-logo{
     color: #1B414B;
     padding: 12px 0;
+    font-size: 500;
 }
 .mobile-menu-close-btn{
     width: 28px;
@@ -48,6 +49,9 @@
     padding: 0;
     line-height: 0;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .mobile-menu-nav{
     display: flex;
@@ -86,8 +90,4 @@
 .mobile-menu{
     display: none;
 }
-/*
-.mobile-menu-div{
-    display: none;
-}*/
 }
