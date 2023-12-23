@@ -10,6 +10,7 @@
 
 .rent-a-yacht-title {
     padding-bottom: 40px;
+    color: #FBFBFB;
     font-weight: 500;
     }
 
@@ -30,7 +31,8 @@
     outline: transparent;
 }
 
-.rent-a-yacht-form-input:focus {
+.rent-a-yacht-form-input:focus
+ {
     border: 1px solid rgba(251, 251, 251, 0.50);
     color: #FBFBFB;
 }
@@ -73,7 +75,8 @@
     margin-bottom: 80px;
 }
 
-.rent-a-yacht-form-btn:focus {
+.rent-a-yacht-form-btn:focus
+.rent-a-yacht-form-btn:hover {
     background: #FBFBFB;
     color: #1B414B;
 }
@@ -100,10 +103,6 @@
         margin-right: auto;
         max-width: 472px;
     }
-
-    /* .rent-a-yacht-form {
-        max-width: 472px;
-    } */
 
     .rent-a-yacht-title {
         padding-bottom: 50px;
@@ -160,9 +159,7 @@
 
 @media screen and (min-width: 1440px) {
 
-    .container {
-        max-width: 1440px;
-    }
+  
 }
 
 /* ======= BIG DESKTOP RENT A YACHT ======= */
