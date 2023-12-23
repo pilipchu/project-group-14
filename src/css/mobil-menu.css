@@ -1,4 +1,5 @@
 /*-----------------------MOBILE-MENU----------------------*/
+
 .is-open{
     opacity: 1;
     visibility: visible;
@@ -6,6 +7,7 @@
 }
 .mobile-menu{
     position: fixed;
+    background-color: #0E1823;
     top: 0;
     left: 0;
     width: 100%;
@@ -70,9 +72,7 @@
     margin-left: auto;
     margin-right: auto;  
 }
-.mob-menu-list-item{
-  
-}
+
 .mob-menu-social-link{
     display: flex;
     align-items: center;
@@ -82,3 +82,12 @@
     fill: #FBFBFB;
 }
 
+@media screen and (min-width:768px){
+.mobile-menu{
+    display: none;
+}
+/*
+.mobile-menu-div{
+    display: none;
+}*/
+}
