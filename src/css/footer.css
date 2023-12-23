@@ -1,0 +1,98 @@
+/*======MOBILE======*/
+.section-footer{
+    width: 355px;
+    height: 412px;
+    border-radius: 24px 24px 0px 0px;
+    background-color: #1b414b;
+}
+.title-footer{
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.42px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.link-footer{
+    width: 66px;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(251, 251, 251, 0.30);
+    padding: 15px 0;
+}
+.nav-footer{
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 119px;
+}
+.list-icons-footer{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    margin-left: 134px;
+    margin-right: 133px;
+}
+.icons-footer{
+    fill: #FBFBFB;
+}
+.footer-paragraph{
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: -0.36px;
+}
+.mini-paragraph-footer{
+    color: rgba(251, 251, 251, 0.40);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; 
+    letter-spacing: 0.36px;
+}
+.container-paragraph-footer{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 102px;
+    margin-left: 54px;
+}
+/*======MOBILE======*/
+/*======TABLET======*/
+@media screen and (min-width: 768px){
+    .section-footer{
+    width: 736px;
+    height: 418px;
+    }
+    .footer-container{
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+    .footer-paragraph{
+    width: 640px;
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 100%; 
+    letter-spacing: -0.64px;
+}
+}
+
+
+
+/*======TABLET======*/
+/*======DESKTOP======*/
+
+
+
+/*======DESKTOP======*/
