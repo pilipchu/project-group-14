@@ -6,11 +6,6 @@ body {
     color: #fbfbfb;
 }
 
-button {
-    cursor: pointer;
-}
-
-
 .container {
     max-width: 375px;
     margin: 0 auto;
