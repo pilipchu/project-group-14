@@ -11,44 +11,37 @@
   border-radius: 24px;
   background: #1b414b;
   padding: 80px 20px;
+  margin-bottom: 20px;
 }
 
 .advantages-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
+  counter-reset: counter;
 }
 
-.advantages-item-litle {
+.advantages-item {
+  counter-increment: counter;
+  /* margin-bottom: 10px; */
+}
+
+.advantages-list advantages-item::before {
+  content: counter(counter, decimal-leading-zero);
+  display: inline-block;
+  width: 20px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* .advantages-item-litle {
   color: #fbfbfb;
   font-size: 28px;
   font-weight: 500;
   line-height: 1;
   letter-spacing: -0.05em;
   display: block;
-}
-
-.advantages-item-litle::after {
-  content: ' ';
-  background: rgba(251, 251, 251, 0.1);
-  border-radius: 18px;
-  height: 2px;
-  display: block;
-  left: 0px;
-  margin-top: 18px;
-  margin-bottom: 18px;
-}
-
-.advantages-text {
-  color: #fbfbfb;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: -0.02em;
-}
-
-.advantages-list-container {
-  margin-bottom: 20px;
-}
+} */
 
 .advantages-img {
   border-radius: 24px;
@@ -69,6 +62,7 @@
   .advantages-list-container {
     max-width: 704px;
     padding: 90px 32px;
+    margin-bottom: 32px;
   }
 
   .advantages-list {
@@ -90,10 +84,6 @@
     font-size: 13px;
     line-height: 1.15;
   }
-
-  .advantages-list-container {
-    margin-bottom: 32px;
-  }
 }
 /*============== /TABLET ADVANTAGES STYLES ================= */
 
@@ -102,9 +92,6 @@
   .advantages-list-container {
     max-width: 716px;
     padding: 90px 50px;
-  }
-
-  .advantages-list-container {
     margin-bottom: 0px;
   }
 
