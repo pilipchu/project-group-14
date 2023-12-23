@@ -1,3 +1,4 @@
+/*======MOBILE======*/
 .section-footer{
     width: 355px;
     height: 412px;
@@ -66,6 +67,8 @@ letter-spacing: 0.36px;
     margin-top: 102px;
     margin-left: 54px;
 }
+/*======MOBILE======*/
+/*======TABLET======*/
 @media screen and (min-width: 768px){
     .section-footer{
     width: 736px;
@@ -86,3 +89,12 @@ letter-spacing: 0.36px;
     letter-spacing: -0.64px;
 }
 }
+
+
+
+/*======TABLET======*/
+/*======DESKTOP======*/
+
+
+
+/*======DESKTOP======*/
