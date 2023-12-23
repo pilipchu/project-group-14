@@ -4,7 +4,7 @@
 <path d="M32 3.721l-3.721-3.721-12.279 12.279-12.279-12.279-3.721 3.721 12.279 12.279-12.279 12.279 3.721 3.721 12.279-12.279 12.279 12.279 3.721-3.721-12.279-12.279 12.279-12.279z"></path>
 </symbol>
 <symbol id="icon-mobile-menu" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.3333" d="M2 20.667h28M2 11.333h28"></path>
+<path d="M3.5 17.5H24.5M3.5 10.5H24.5" stroke="#1B414B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
 </symbol>
 <symbol id="icon-facebook" viewBox="0 0 32 32">
 <path d="M32 16.040c0-8.854-7.168-16.040-16-16.040s-16 7.186-16 16.040c0 7.763 5.504 14.228 12.8 15.719v-10.907h-3.2v-4.812h3.2v-4.010c0-3.096 2.512-5.614 5.6-5.614h4v4.812h-3.2c-0.88 0-1.6 0.722-1.6 1.604v3.208h4.8v4.812h-4.8v11.148c8.080-0.802 14.4-7.635 14.4-15.96z"></path>
