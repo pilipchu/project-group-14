@@ -1,6 +1,9 @@
 /* ============== MOBILE ABOUT US STYLES =================== */
+.about-us-section {
+  padding-bottom: 40px;
+}
 
-.about-us .container {
+.about-us {
   border-radius: 24px;
   background: #fbfbfb;
 }
@@ -49,11 +52,14 @@
 /* ============== TABLET ABOUT US STYLES =================== */
 
 @media screen and (min-width: 768px) {
+  .about-us-section {
+    padding-bottom: 75px;
+  }
+
   .about-us {
     max-width: 768px;
     border-radius: 24px;
     background: #fbfbfb;
-    padding-bottom: 75px;
   }
 
   .about-us-description {
@@ -68,7 +74,6 @@
   .about-us-title {
     color: #1b414b;
     margin-bottom: 50px;
-    padding-top: 50px;
   }
 
   .about-us-benefits {

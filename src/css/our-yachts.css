@@ -149,7 +149,7 @@
 
 @media screen and (max-width: 767px) {
   .our-yacht {
-    padding: 80px 20px;
+    padding: 40px 20px;
   }
 
   .subtitle-our-yacht {
@@ -185,7 +185,7 @@
 
 @media screen and (min-width: 768px) {
   .our-yacht {
-    padding: 150px 32px;
+    padding: 75px 32px;
   }
 
   .container {
