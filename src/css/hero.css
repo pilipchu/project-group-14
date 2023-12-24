@@ -11,8 +11,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 198px;
-  padding-bottom: 243px;
 }
 
 .hero-sec-title {
@@ -63,11 +61,6 @@ body {
 /* HERO SECTION TABLET VERSION */
 
 @media screen and (min-width: 768px) {
-  .hero-sec-div {
-    padding-top: 200px;
-    padding-bottom: 215px;
-  }
-
   .hero-sec-title {
     font-size: 70px;
     line-height: 1;
@@ -98,11 +91,6 @@ body {
 /* HERO SECTION DESKTOP VERSION 1280PX */
 
 @media screen and (min-width: 1280px) {
-  .hero-sec-div {
-    padding-top: 155px;
-    padding-bottom: 180px;
-  }
-
   .hero-sec-title {
     font-size: 80px;
     line-height: 80px;
@@ -121,8 +109,4 @@ body {
 /* HERO SECTION DESKTOP VERSION 1440PX */
 
 @media screen and (min-width: 1440px) {
-  .hero-sec-div {
-    padding-top: 155px;
-    padding-bottom: 180px;
-  }
 }
