@@ -35,9 +35,43 @@ body {
   letter-spacing: -0.02em;
 }
 
+.background-hero {
+  margin: 0 auto;
+  background-image: url('../img/hero/mobile-hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 375px;
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .background-hero {
+    background-image: url('../img/hero/mobile-hero@2x.jpg');
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 704px;
+  }
+
+  .background-hero {
+    margin: 0 auto;
+    background-image: url('../img/hero/tablet-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 768px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background-hero {
+      background-image: url('../img/hero/tablet-hero@2x.jpg');
+    }
   }
 
   .all-title-second {
@@ -49,17 +83,44 @@ body {
   .container {
     max-width: 1180px;
   }
+
+  .background-hero {
+    margin: 0 auto;
+    background-image: url('../img/hero/desktop-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1280px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background-hero {
+      background-image: url('../img/hero/desktop-hero@2x.jpg');
+    }
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1340px;
   }
-}
 
-@media screen and (min-width: 1440px) {
-  .container {
+  .background-hero {
+    margin: 0 auto;
+    background-image: url('../img/hero/big-desktop-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     max-width: 1440px;
-    padding: 0 50px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .background-hero {
+      background-image: url('../img/hero/big-desktop-hero@2x.jpg');
+    }
   }
 }
