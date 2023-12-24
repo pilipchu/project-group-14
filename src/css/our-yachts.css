@@ -57,28 +57,49 @@
 }
 
 .characteristic-name-yacht {
-    max-width: 147px;
-    max-height: 19px;
     overflow: hidden;
     color: #1B414B;
     font-family: Inter;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.17;
-    letter-spacing: 0.045em;
+    letter-spacing: -0.045em;
     text-transform: uppercase;
+
+    opacity: 1;
 }
 
 .characteristic-class-yacht {
-    opacity: 0.4;
-    color: #040306;
+    color: rgba(4, 3, 6, 0.4);
     font-family: Inter;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 32px;
 }
+
+.characteristic-class-yacht::after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 1px;
+    background-color: rgba(4, 3, 6, 0.1);
+}
+
+.hidden-name {
+    width: 177px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
 
 .characteristic-name {
     width: 62px;
@@ -101,7 +122,7 @@
     font-weight: 400;
     line-height: 1.17;
     /* 16.52px */
-    letter-spacing: 0.03em;
+    letter-spacing: -0.03em;
 }
 
 .yacht-rental-btn {
