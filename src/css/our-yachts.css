@@ -178,10 +178,6 @@
     display: none;
   }
 
-  .our-yacht-card-item {
-    max-width: 334px;
-  }
-
   .yacht-rental-btn {
     max-width: 141px;
     padding: 14px 32px;
@@ -209,10 +205,6 @@
   .our-yacht-card-list {
     margin-bottom: 50px;
     gap: 32px;
-  }
-
-  .our-yacht-card-item {
-    width: 336px;
   }
 
   .characteristic-name-yacht {
@@ -270,7 +262,6 @@
 
   .our-yacht-card-item {
     margin: 0;
-    width: 377px;
   }
 }
 
@@ -295,9 +286,5 @@
 
   .our-yacht-card-list {
     gap: 32px;
-  }
-
-  .our-yacht-card-item {
-    width: 392px;
   }
 }
