@@ -1,1 +1,156 @@
 
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #0e1823;
+    color: #fbfbfb;
+}
+
+.container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* HERO SECTION MOBILE VERSION */
+
+.hero-sec-div {
+    padding-top: 198px;
+    padding-bottom: 243px;
+}
+
+.hero-sec-title {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    max-width: 335px;
+    margin-bottom: 24px;
+}
+
+.hero-sec-text {
+    max-width: 335px;
+    color: rgba(251, 251, 251, 0.70);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    margin-bottom: 38px;
+}
+
+.hero-sec-link {
+    display: block;
+    padding: 14px;
+    width: 141px;
+    text-align: center;
+    border-radius: 15px;
+    background: #1B414B;
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+    border-color: transparent;
+    margin: 0 auto;
+    transition: background-color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.hero-sec-link:hover,
+.hero-sec-link:focus {
+    background-color: #FBFBFB;
+    color: #1B414B;
+}
+
+/* HERO SECTION TABLET VERSION */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .hero-sec-div {
+     padding-top: 200px;
+     padding-bottom: 215px;
+    }
+
+
+    .hero-sec-title {
+        font-size: 70px;
+        line-height: 70px;
+        letter-spacing: -1.4px;
+        max-width: 704px;
+    }
+
+
+    .hero-sec-text {
+        font-size: 16px;
+        line-height: 140%;
+        max-width: 597px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+    }
+
+
+
+    .hero-sec-link {
+        padding: 16px;
+        width: 179px;
+        font-family: Inter;
+        font-size: 18px;
+        line-height: 110%;
+        letter-spacing: -0.36px;
+    }
+
+
+}
+
+/* HERO SECTION DESKTOP VERSION 1280PX */
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding: 0 50px;
+    }
+
+
+    .hero-sec-div {
+        padding-top: 155px;
+        padding-bottom: 180px;
+    }
+
+
+    .hero-sec-title {
+            font-size: 80px;
+            line-height: 80px;
+            letter-spacing: -1.6px;
+            max-width: 1001px;
+            margin-right: auto;
+            margin-left: auto;
+    }
+}
+
+/* HERO SECTION DESKTOP VERSION 1440PX */
+
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 50px;
+    }
+
+
+    .hero-sec-div {
+        padding-top: 155px;
+        padding-bottom: 180px;
+    }
+
+}
