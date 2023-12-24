@@ -16,17 +16,28 @@
 .our-yacht-card-item {
   background-color: #fbfbfb;
   border-radius: 24px;
-  padding: 16px;
 }
 
 .our-yacht-img {
   border-radius: 24px;
   margin-bottom: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+
+.conteiner-list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
 }
 
 .characteristic-list {
-  margin: 0 auto;
-  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
 }
 
 .characteristic-item-name {
@@ -48,10 +59,6 @@
 .characteristic-item p {
   text-align: start;
   margin: 0;
-}
-
-.characteristic-item:not(:last-child) {
-  margin-bottom: 6px;
 }
 
 .characteristic-name-yacht {
@@ -77,21 +84,26 @@
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   position: relative;
-  padding: 0 32px;
+  align-items: baseline;
+  margin-bottom: 32px;
+  margin-left: 32px;
+  width: 272px;
 }
 
 .characteristic-class-yacht::after {
   content: '';
+  top: 32px;
+  width: 272px;
   position: absolute;
   display: block;
   height: 1px;
   background-color: rgba(4, 3, 6, 0.1);
+  margin: 0 auto;
 }
 
 .hidden-name {
-  width: 177px;
+  width: 147px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -149,7 +161,7 @@
 
 @media screen and (max-width: 767px) {
   .our-yacht {
-    padding: 40px 20px;
+    padding: 40px 0;
   }
 
   .subtitle-our-yacht {
@@ -185,7 +197,7 @@
 
 @media screen and (min-width: 768px) {
   .our-yacht {
-    padding: 75px 32px;
+    padding: 75px 0;
   }
 
   .container {
@@ -226,7 +238,7 @@
     padding: 16px 40px;
 
     font-size: 18px;
-    line-height: 110%;
+    line-height: 1.1;
   }
 }
 
@@ -238,12 +250,24 @@
 
 @media screen and (min-width: 1280px) {
   .our-yacht {
-    padding: 150px 50px;
+    padding: 75px 0;
   }
 
   .container {
     max-width: 1180px;
     margin: 0 auto;
+  }
+
+  .characteristic-class-yacht {
+    width: 313px;
+  }
+
+  .characteristic-class-yacht::after {
+    width: 313px;
+  }
+
+  .hidden-name {
+    width: 177px;
   }
 
   .subtitle-our-yacht {
@@ -267,12 +291,21 @@
 
 @media screen and (min-width: 1440px) {
   .our-yacht {
-    padding: 150px 100px;
+    padding: 75px 0;
+    margin: 0 auto;
   }
 
   .container {
     max-width: 1340px;
     margin: 0 auto;
+  }
+
+  .characteristic-class-yacht {
+    width: 328px;
+  }
+
+  .characteristic-class-yacht::after {
+    width: 328px;
   }
 
   .our-yacht-card-list {
