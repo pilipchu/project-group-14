@@ -6,6 +6,8 @@
 .about-us {
   border-radius: 24px;
   background: #fbfbfb;
+  max-width: 335px;
+  margin: 0 auto;
 }
 
 .about-us-description {
@@ -57,9 +59,10 @@
   }
 
   .about-us {
-    max-width: 768px;
+    max-width: 704px;
     border-radius: 24px;
     background: #fbfbfb;
+    margin: 0 auto;
   }
 
   .about-us-description {
@@ -133,8 +136,8 @@
 
 /* ============== DESKTOP (1440) ABOUT US STYLES =================== */
 @media screen and (min-width: 1440px) {
-  .about-us-container {
-    max-width: 1440px;
+  .about-us {
+    max-width: 1340px;
   }
 }
 /* ============== /DESKTOP (1440) ABOUT US STYLES =================== */
