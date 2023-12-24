@@ -71,9 +71,11 @@
   padding: 14px 44px;
   border: none;
   margin-bottom: 80px;
+  transition: color 250ms linear, background 250ms linear;
 }
 
-.rent-a-yacht-form-btn:focus .rent-a-yacht-form-btn:hover {
+.rent-a-yacht-form-btn:focus,
+.rent-a-yacht-form-btn:hover {
   background: #fbfbfb;
   color: #1b414b;
 }
