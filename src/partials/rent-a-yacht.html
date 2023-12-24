@@ -1,36 +1,92 @@
 <section class="rent-a-yacht-section container" id="rent-a-yacht">
-    <div class="rent-a-yacht-container">
-        <div class="rent-a-yacht-form-container">
-            <h2 class="rent-a-yacht-title all-title-second">Rent a yacht now</h2>
-            <form class="rent-a-yacht-form">
-                <label class="rent-a-yacht-form-label" for="user-name"></label>
-                <input class="rent-a-yacht-form-input" type="text" placeholder="Full Name" id="user-name" required name="user-full-name" pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+">
+  <div class="rent-a-yacht-container">
+    <div class="rent-a-yacht-form-container">
+      <h2 class="rent-a-yacht-title all-title-second">Rent a yacht now</h2>
+      <form class="rent-a-yacht-form">
+        <label class="rent-a-yacht-form-label" for="user-name"></label>
+        <input
+          class="rent-a-yacht-form-input"
+          type="text"
+          placeholder="Full Name"
+          id="user-name"
+          required
+          name="user-full-name"
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+        />
 
-                <label class="rent-a-yacht-form-label" for="user-email"></label>
-                <input class="rent-a-yacht-form-input" type="email" placeholder="Email" id="user-email" required name="user-email">
+        <label class="rent-a-yacht-form-label" for="user-email"></label>
+        <input
+          class="rent-a-yacht-form-input"
+          type="email"
+          placeholder="Email"
+          id="user-email"
+          required
+          name="user-email"
+        />
 
-                <label class="rent-a-yacht-form-label" for="user-phone-number"></label>
-                <input class="rent-a-yacht-form-input" type="tel" placeholder="Phone number" id="user-phone-number" required name="user-phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="xxx-xxx-xx-xx">
+        <label class="rent-a-yacht-form-label" for="user-phone-number"></label>
+        <input
+          class="rent-a-yacht-form-input"
+          type="tel"
+          placeholder="Phone number"
+          id="user-phone-number"
+          required
+          name="user-phone-number"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+          title="xxx-xxx-xx-xx"
+        />
 
-                <textarea class="rent-a-yacht-form-comment" name="user-comment" placeholder="Comment"></textarea>
-                
-                <button class="rent-a-yacht-form-btn btn-submit" type="submit">Send</button>
-                              
-            </form>
-        </div>
-        <div>
-            <picture>
-                <source srcset="../img/rent-a-yacht/big-desktop-rent-yacht.jpg 1x, ../img/rent-a-yacht/big-desktop-rent-yacht@2x.jpg 2x" media="(min-width: 1440px)">
+        <textarea
+          class="rent-a-yacht-form-comment"
+          name="user-comment"
+          placeholder="Comment"
+        ></textarea>
 
-                <source srcset="../img/rent-a-yacht/desktop-rent-yacht.jpg 1x, ../img/rent-a-yacht/desktop-rent-yacht@2x.jpg 2x" media="(min-width: 1280px)">
-
-                <source srcset="../img/rent-a-yacht/tablet-rent-yacht.jpg 1x, ../img/rent-a-yacht/tablet-rent-yacht@2x.jpg 2x" media="(min-width: 768px)">
-
-                <source srcset="../img/rent-a-yacht/mobile-rent-yacht.jpg 1x, ../img/rent-a-yacht/mobile-rent-yacht@2x.jpg 2x" media="(max-width: 767px)">
-
-                <img class="rent-a-yacht-img" src="../img/rent-a-yacht/mobile-rent-yacht.jpg" alt="rent a yacht">
-
-            </picture>
-        </div>
+        <button class="rent-a-yacht-form-btn btn-submit" type="submit">
+          Send
+        </button>
+      </form>
     </div>
+    <div>
+      <picture>
+        <source
+          srcset="
+            ./img/rent-a-yacht/big-desktop-rent-yacht.jpg     1x,
+            ../img/rent-a-yacht/big-desktop-rent-yacht@2x.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+
+        <source
+          srcset="
+            ./img/rent-a-yacht/desktop-rent-yacht.jpg     1x,
+            ../img/rent-a-yacht/desktop-rent-yacht@2x.jpg 2x
+          "
+          media="(min-width: 1280px)"
+        />
+
+        <source
+          srcset="
+            ./img/rent-a-yacht/tablet-rent-yacht.jpg     1x,
+            ../img/rent-a-yacht/tablet-rent-yacht@2x.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+
+        <source
+          srcset="
+            ./img/rent-a-yacht/mobile-rent-yacht.jpg     1x,
+            ../img/rent-a-yacht/mobile-rent-yacht@2x.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+
+        <img
+          class="rent-a-yacht-img"
+          src="./img/rent-a-yacht/mobile-rent-yacht.jpg"
+          alt="rent a yacht"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
