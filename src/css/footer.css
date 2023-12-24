@@ -139,10 +139,6 @@
     .section-footer{
         width: 1230px;
     }
-    .title-footer{
-        padding-left: 45px;
-        
-    }
     .footer-paragraph{
         width: 693px;
         color: #FBFBFB;
@@ -156,12 +152,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .nav-footer{
-        padding-left: 326px;
-        padding-right: 311px;
-    }
     .list-icons-footer{
-        padding-bottom: 62px;
         height: 80px;
     }
     .container-paragraph-footer{
