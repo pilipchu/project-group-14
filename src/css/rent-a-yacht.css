@@ -1,130 +1,126 @@
 /* ========= MOBILE RENT A YACHT ========= */
 .rent-a-yacht-section {
-    padding-top: 40px;
-    padding-bottom: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .rent-a-yacht-form {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .rent-a-yacht-title {
-    color: #FBFBFB;
-    font-weight: 500;
-    }
-
-.rent-a-yacht-form-input {
-    margin-bottom: 18px;
-    width: 100%;
-    height: 42px;
-    border-radius: 12px;
-    border: 1px solid rgba(251, 251, 251, 0.20);
-    background-color: transparent;
-    padding-left: 18px;
-    color: rgba(251, 251, 251, 0.40);
-    font-family: Inter;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.17; 
-    outline: transparent;
+  color: #fbfbfb;
+  font-weight: 500;
 }
 
-.rent-a-yacht-form-input:focus
- {
-    border: 1px solid rgba(251, 251, 251, 0.50);
-    color: #FBFBFB;
+.rent-a-yacht-form-input {
+  margin-bottom: 18px;
+  width: 100%;
+  height: 42px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  background-color: transparent;
+  padding-left: 18px;
+  color: rgba(251, 251, 251, 0.4);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  outline: transparent;
+}
+
+.rent-a-yacht-form-input:focus {
+  border: 1px solid rgba(251, 251, 251, 0.5);
+  color: #fbfbfb;
 }
 
 .rent-a-yacht-form-comment {
-    margin-bottom: 40px;
-    width: 100%;
-    height: 108px;
-    border-radius: 12px;
-    border: 1px solid rgba(251, 251, 251, 0.20);
-    background-color: transparent;
-    padding: 14px 18px;
-    color: rgba(251, 251, 251, 0.40);
-    font-family: Inter;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.17; 
-    outline: transparent;
-    resize: none;
+  margin-bottom: 40px;
+  width: 100%;
+  height: 108px;
+  border-radius: 12px;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  background-color: transparent;
+  padding: 14px 18px;
+  color: rgba(251, 251, 251, 0.4);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  outline: transparent;
+  resize: none;
 }
 
 .rent-a-yacht-form-comment:focus {
-    border: 1px solid rgba(251, 251, 251, 0.50);
-    color: #FBFBFB;
+  border: 1px solid rgba(251, 251, 251, 0.5);
+  color: #fbfbfb;
 }
 
 .rent-a-yacht-form-btn {
-    color: #FBFBFB;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.29; 
-    letter-spacing: -0.02em; 
-    text-align: center;
-    display: block;
-    border-radius: 15px;
-    background: #1B414B;
-    padding: 14px 44px;
-    border: none;
-    margin-bottom: 80px;
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  display: block;
+  border-radius: 15px;
+  background: #1b414b;
+  padding: 14px 44px;
+  border: none;
+  margin-bottom: 80px;
 }
 
-.rent-a-yacht-form-btn:focus
-.rent-a-yacht-form-btn:hover {
-    background: #FBFBFB;
-    color: #1B414B;
+.rent-a-yacht-form-btn:focus .rent-a-yacht-form-btn:hover {
+  background: #fbfbfb;
+  color: #1b414b;
 }
 
 .rent-a-yacht-img {
-    border-radius: 24px;
-    max-width: 100%;
+  border-radius: 24px;
+  max-width: 100%;
 }
-
 
 /* ========== MOBILE RENT A YACHT ========= */
 
 /* ======= TABLET RENT A YACHT ======= */
 
 @media screen and (min-width: 768px) {
-    
-    .rent-a-yacht-section {
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
+  .rent-a-yacht-section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
 
-    .rent-a-yacht-form-container {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 472px;
-    }
+  .rent-a-yacht-form-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 472px;
+  }
 
-    .rent-a-yacht-title {
-        margin-bottom: 50px;
-    }
+  .rent-a-yacht-title {
+    margin-bottom: 50px;
+  }
 
-    .rent-a-yacht-form-input {
-        width: 100%;
-        height: 54px;
-        font-size: 14px;
-        line-height: 1.29;
-    }
-    
-    .rent-a-yacht-form-comment {
-        margin-bottom: 50px;
-        height: 116px;
-    }
+  .rent-a-yacht-form-input {
+    width: 100%;
+    height: 54px;
+    font-size: 14px;
+    line-height: 1.29;
+  }
 
-    .rent-a-yacht-form-btn {
-        font-size: 18px;
-        line-height: 1.1; 
-        padding: 18px 75px;
-        margin-bottom: 100px;
-    }
+  .rent-a-yacht-form-comment {
+    margin-bottom: 50px;
+    height: 116px;
+  }
+
+  .rent-a-yacht-form-btn {
+    font-size: 18px;
+    line-height: 1.1;
+    padding: 18px 75px;
+    margin-bottom: 100px;
+  }
 }
 
 /* ======= TABLET RENT A YACHT ======= */
@@ -132,31 +128,24 @@
 /* ======= DESKTOP RENT A YACHT ======= */
 
 @media screen and (min-width: 1280px) {
+  .rent-a-yacht-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 50px;
+  }
 
-    .rent-a-yacht-container {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-end;
-        gap: 50px;
-    }
+  .rent-a-yacht-form-container {
+    margin: 0;
+    max-width: 472px;
+    width: 100%;
+  }
 
-    .rent-a-yacht-form-container {
-        margin: 0;
-        max-width: 472px;
-        width: 100%;
-    }
-
-    .rent-a-yacht-form-btn {
-        margin-bottom: 0;
-    }
+  .rent-a-yacht-form-btn {
+    margin-bottom: 0;
+  }
 }
-
 
 /* ======= DESKTOP RENT A YACHT ======= */
 
-/* ======= BIG DESKTOP RENT A YACHT ======= */
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 /* ======= BIG DESKTOP RENT A YACHT ======= */
