@@ -58,9 +58,9 @@
   transition: background 250ms linear;
 }
 
-.navbar__item:hover,
-.navbar__item:active,
-.navbar__item:focus {
+.navbar__item a:hover,
+.navbar__item a:active,
+.navbar__item a:focus {
   background: #1b414b;
 }
 
