@@ -17,14 +17,14 @@
     <title>yachtjet</title>
     
     <script type="module" crossorigin src="/project-group-14/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/project-group-14/assets/index-dd7f8f50.css">
+    <link rel="stylesheet" href="/project-group-14/assets/index-691034d4.css">
   </head>
   <body>
     <!---->
     <div class="background-hero">
       <header class="header">
   <div class="header__container">
-    <a class="header__log" href="../index.html">yachtjet</a>
+    <a class="header__log" href="./index.html">yachtjet</a>
     <nav class="header__navbar">
       <ul class="navbar__list">
         <li class="navbar__item">
@@ -119,7 +119,7 @@
 
     <!---->
     <main>
-      <section class="about-us-section" id="about-us">
+      <section class="about-us-section container" id="about-us">
   <div class="about-us">
     <div class="about-us-description">
       <div class="title-about-us">
@@ -141,7 +141,6 @@
         </p>
       </div>
     </div>
-
     <picture>
       <source
         srcset="/project-group-14/assets/big-desktop-about-as-c001e97b.jpg 1x, /project-group-14/assets/big-desktop-about-as@2x-30bcf281.jpg 2x"
@@ -199,11 +198,12 @@
             alt="Yacht 'Arrow' "
           />
         </picture>
-
-        <p class="characteristic-class-yacht">
-          <span class="characteristic-name-yacht">Arrow</span>
-          Luxury yahts
-        </p>
+        <div class="container-text">
+          <p class="characteristic-class-yacht">
+            <span class="characteristic-name-yacht">Arrow</span>
+            Luxury yahts
+          </p>
+        </div>
         <div class="conteiner-list">
           <ul class="characteristic-list">
             <li class="characteristic-item">
@@ -270,13 +270,15 @@
               alt="Yacht 'Benetti Oasis' "
             />
           </picture>
+          <div class="container-text lose">
+            <p class="characteristic-class-yacht">
+              <span class="characteristic-name-yacht hidden-name"
+                >benetti oasis 40m bo122</span
+              >
+              Luxury yahts
+            </p>
+          </div>
 
-          <p class="characteristic-class-yacht">
-            <span class="characteristic-name-yacht hidden-name"
-              >benetti oasis 40m bo122</span
-            >
-            Luxury yahts
-          </p>
           <div class="conteiner-list">
             <ul class="characteristic-list">
               <li class="characteristic-item">
@@ -347,10 +349,12 @@
             />
           </picture>
 
-          <p class="characteristic-class-yacht">
-            <span class="characteristic-name-yacht">Belle Anna</span>
-            Luxury yahts
-          </p>
+          <div class="container-text">
+            <p class="characteristic-class-yacht">
+              <span class="characteristic-name-yacht">Belle Anna</span>
+              Luxury yahts
+            </p>
+          </div>
           <div class="conteiner-list">
             <ul class="characteristic-list">
               <li class="characteristic-item">
@@ -424,41 +428,38 @@
         </li>
       </ol>
     </div>
-    <div class="advantages-img-container">
-      <picture>
-        <source
-          srcset="/project-group-14/assets/big-desktop-advantages-1d2682c1.jpg 1x, /project-group-14/assets/big-desktop-advantages@2x-5554f257.jpg 2x"
-          media="(min-width: 1440px)"
-        />
-        <source
-          srcset="/project-group-14/assets/desktop-advantages-6502a78a.jpg 1x, /project-group-14/assets/desktop-advantages@2x-a83fccd7.jpg 2x"
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="/project-group-14/assets/tablet-advantages-6446e4eb.jpg 1x, /project-group-14/assets/tablet-advantages@2x-259f2925.jpg 2x"
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="/project-group-14/assets/mobile-advantages-6868d444.jpg 1x, /project-group-14/assets/mobile-advantages@2x-7682b0bf.jpg 2x"
-          media="(max-width: 767px)"
-        />
-        <img
-          class="advantages-img"
-          src="/project-group-14/assets/mobile-advantages-6868d444.jpg"
-          alt="yacht cabin"
-        />
-      </picture>
-    </div>
+    <picture>
+      <source
+        srcset="/project-group-14/assets/big-desktop-advantages-1d2682c1.jpg 1x, /project-group-14/assets/big-desktop-advantages@2x-5554f257.jpg 2x"
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="/project-group-14/assets/desktop-advantages-6502a78a.jpg 1x, /project-group-14/assets/desktop-advantages@2x-a83fccd7.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/project-group-14/assets/tablet-advantages-6446e4eb.jpg 1x, /project-group-14/assets/tablet-advantages@2x-259f2925.jpg 2x"
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/project-group-14/assets/mobile-advantages-6868d444.jpg 1x, /project-group-14/assets/mobile-advantages@2x-7682b0bf.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        class="advantages-img"
+        src="/project-group-14/assets/mobile-advantages-6868d444.jpg"
+        alt="yacht cabin"
+      />
+    </picture>
   </div>
 </section>
 
       <!---->
-      <section class="rent-a-yacht-section container" id="rent-a-yacht">
-  <div class="rent-a-yacht-container">
+      <section class="rent-a-yacht-section" id="rent-a-yacht">
+  <div class="rent-a-yacht-container container">
     <div class="rent-a-yacht-form-container">
       <h2 class="rent-a-yacht-title all-title-second">Rent a yacht now</h2>
       <form class="rent-a-yacht-form">
-        <label class="rent-a-yacht-form-label" for="user-name"></label>
         <input
           class="rent-a-yacht-form-input"
           type="text"
@@ -469,7 +470,6 @@
           pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
         />
 
-        <label class="rent-a-yacht-form-label" for="user-email"></label>
         <input
           class="rent-a-yacht-form-input"
           type="email"
@@ -479,7 +479,6 @@
           name="user-email"
         />
 
-        <label class="rent-a-yacht-form-label" for="user-phone-number"></label>
         <input
           class="rent-a-yacht-form-input"
           type="tel"
@@ -536,7 +535,7 @@
       <!-- ==============REVIEWS section=============== -->
 
 <section class="reviews-section" id="reviews">
-  <div class="review-div-general">
+  <div class="review-div-general container">
     <h2 class="review-title-caption">
       YachtJet take pride in providing the best possible service and experience
       to our customers
@@ -547,8 +546,8 @@
       their journey with us.
     </p>
 
-    <ul class="review-list list">
-      <li class="review-item-list">
+    <ul class="review-list">
+      <li class="review-item-list list">
         <div class="review-div-container">
           <picture>
             <source
