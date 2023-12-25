@@ -1,3 +1,7 @@
+.our-yacht {
+  margin: 0 auto;
+}
+
 .subtitle-our-yacht {
   margin: 0 auto;
   color: #fbfbfb;
@@ -13,7 +17,16 @@
   justify-content: center;
 }
 
+.container-text {
+  margin-bottom: 32px;
+  padding: 0 16px;
+}
+
 .our-yacht-card-item {
+  padding-top: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
   background-color: #fbfbfb;
   border-radius: 24px;
 }
@@ -21,17 +34,12 @@
 .our-yacht-img {
   border-radius: 24px;
   margin-bottom: 32px;
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-top: 16px;
 }
 
 .conteiner-list {
   display: flex;
   justify-content: space-between;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 32px;
+  padding: 0 16px;
 }
 
 .characteristic-list {
@@ -87,8 +95,6 @@
   position: relative;
   align-items: baseline;
   margin-bottom: 32px;
-  margin-left: 32px;
-  width: 272px;
 }
 
 .characteristic-class-yacht::after {
@@ -191,11 +197,6 @@
     padding: 75px 0;
   }
 
-  .container {
-    max-width: 704px;
-    margin: 0 auto;
-  }
-
   .subtitle-our-yacht {
     max-width: 645px;
     font-size: 48px;
@@ -225,6 +226,10 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .lose {
+    padding: 0;
+  }
+
   .our-yacht-card-item:last-child {
     display: none;
   }
@@ -233,11 +238,6 @@
 @media screen and (min-width: 1280px) {
   .our-yacht {
     padding: 75px 0;
-  }
-
-  .container {
-    max-width: 1180px;
-    margin: 0 auto;
   }
 
   .characteristic-class-yacht {
@@ -268,11 +268,6 @@
 @media screen and (min-width: 1440px) {
   .our-yacht {
     padding: 75px 0;
-    margin: 0 auto;
-  }
-
-  .container {
-    max-width: 1340px;
     margin: 0 auto;
   }
 

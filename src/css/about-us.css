@@ -1,13 +1,12 @@
 /* ============== MOBILE ABOUT US STYLES =================== */
 .about-us-section {
   padding-bottom: 40px;
+  margin: 0 auto;
 }
 
 .about-us {
   border-radius: 24px;
   background: #fbfbfb;
-  max-width: 335px;
-  margin: 0 auto;
 }
 
 .about-us-description {
@@ -15,27 +14,26 @@
   flex-direction: column;
   padding: 40px 20px;
 }
+
 .about-us-title {
   color: #1b414b;
+}
+
+.title-about-us {
   margin-bottom: 40px;
-  width: 295px;
 }
 
 .about-us-benefits {
   color: #1b414b;
   margin-bottom: 20px;
   font-size: 18px;
-  width: 295px;
-  font-weight: 400;
   line-height: 1;
   letter-spacing: -0.02em;
 }
 
 .about-us-option {
   color: #040306;
-
   font-size: 12px;
-  width: 295px;
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: -0.02em;

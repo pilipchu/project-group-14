@@ -59,12 +59,11 @@
 }
 
 .navbar__item:hover,
-.navbar__item:active {
+.navbar__item:active,
+.navbar__item:focus {
   background: #1b414b;
 }
 
-.header__links {
-}
 .links__list {
   display: flex;
   gap: 8px;
