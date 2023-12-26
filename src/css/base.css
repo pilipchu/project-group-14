@@ -11,6 +11,10 @@ body {
   color: #fbfbfb;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
