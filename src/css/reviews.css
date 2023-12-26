@@ -44,7 +44,7 @@
 }
 
 .review-title-subtitle {
-  width: 335px;
+  max-width: 335px;
   margin-bottom: 40px;
   color: #fbfbfb;
   opacity: 0.4;
