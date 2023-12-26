@@ -14,10 +14,10 @@
   height: 100%;
   z-index: 99999;
   transform: translateX(100%);
+  transition: 250ms linear;
 }
 .mobile-menu.is-open {
   transform: translateX(0%);
-  transition: 250ms linear;
 }
 .mobile-menu-div {
   position: relative;
