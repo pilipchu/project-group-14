@@ -36,6 +36,11 @@
   margin-bottom: 32px;
 }
 
+.our-yacht-img:hover,
+.our-yacht-img:focus {
+  transform: scale(1.2);
+}
+
 .conteiner-list {
   display: flex;
   justify-content: space-between;
